@@ -36,6 +36,7 @@ public class NewTest {
 		
 		String batchId   = System.getenv("APPLITOOLS_BATCH_ID");
 		System.out.println(System.getenv("APPLITOOLS_BATCH_ID"));
+
 		String batchName = "TestNG2";
 		BatchInfo batchInfo = new BatchInfo(batchName); 
 		batchInfo.setId(batchId);
