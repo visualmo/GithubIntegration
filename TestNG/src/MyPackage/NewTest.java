@@ -36,7 +36,7 @@ public class NewTest {
 		
 		String batchId   = System.getenv("APPLITOOLS_BATCH_ID");
 		System.out.println(System.getenv("APPLITOOLS_BATCH_ID"));
-		String batchName = "TestNG";
+		String batchName = "TestNG1";
 		BatchInfo batchInfo = new BatchInfo(batchName); 
 		batchInfo.setId(batchId);
 		eyes.setBatch(batchInfo);
@@ -46,7 +46,7 @@ public class NewTest {
 	public void Test() {
 		try {
 			System.out.println("in test method");
-			eyes.open(driver, AppName, TestName, new RectangleSize(800, 600));
+			eyes.open(driver, AppName, TestName, new RectangleSize(900, 600));
 			driver.get("https://applitools.com/helloworld/");
 			
 			eyes.checkWindow();
