@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18090" started-at="2018-05-04T02:37:20Z" finished-at="2018-05-04T02:37:38Z">
+    <groups>
+    </groups>
+    <test name="NewTest" duration-ms="18090" started-at="2018-05-04T02:37:20Z" finished-at="2018-05-04T02:37:38Z">
+      <class name="MyPackage.NewTest">
+        <test-method status="PASS" signature="setUpBeforMethod()[pri:0, instance:MyPackage.NewTest@38425407]" name="setUpBeforMethod" is-config="true" duration-ms="6005" started-at="2018-05-04T02:37:20Z" finished-at="2018-05-04T02:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforMethod -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:MyPackage.NewTest@38425407]" name="Test" duration-ms="12070" started-at="2018-05-04T02:37:26Z" finished-at="2018-05-04T02:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- MyPackage.NewTest -->
+    </test> <!-- NewTest -->
+  </suite> <!-- Suite -->
+</testng-results>
